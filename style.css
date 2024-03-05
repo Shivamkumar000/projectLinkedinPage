@@ -188,7 +188,7 @@ body{
 aside .sidebar{
     background: #fff;
     width: 100%;
-    height: 53vh;
+    height: 55vh;
     position: relative;
     border-radius: 0.8rem;
     overflow: hidden;
@@ -241,7 +241,7 @@ aside .sidebar .profile{
     position: relative;
     display: flex;
     flex-direction: column;
-    top: 7%;
+    top: 9%;
 }
 
 .sidebar .view .views{
@@ -271,7 +271,7 @@ aside .sidebar .profile{
 
 .sidebar .premium{
     position: relative;
-    top: 7%;
+    top: 10%;
 }
 
 
@@ -298,12 +298,12 @@ aside .sidebar .profile{
 hr#premium,
 hr#view,
 hr#profile{
-    margin: 0.5rem 0 0 0;
+    margin: 0.7rem 0 0 0;
 }
 
 .items{
     position: relative;
-    top: 7%;
+    top: 10%;
     display: flex;
     gap: 0.5rem;
     margin: 0.4rem 0 0 1rem;
@@ -316,7 +316,7 @@ aside .recent_jobs{
     background: #fff;
     margin-top: 0.5rem;
     width: 100%;
-    height: 68vh;
+    height: 79vh;
     position: relative;
     border-radius: 0.8rem;
     overflow: hidden;
@@ -462,7 +462,7 @@ aside .events i{
 
 
 .post_box{
-    padding:15px;
+    padding: 15px 15px 5px 15px;
     background-color: white;
     margin-bottom:20px;
     border-radius: 10px;
@@ -631,6 +631,9 @@ aside .events i{
 .act_title{
     font-size: va(--message_title_size);
     font-weight: var(--message_font_weight);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     
 }
 .news{
@@ -651,6 +654,10 @@ aside .events i{
 
 .account_name{
     color:rgba(0,0,0,0.6);font-size: 0.8rem;
+}
+.account_name_1{
+    color:rgba(0,0,0,0.6);font-size: 0.8rem;
+    margin-left:25px;
 }
 
 .account_feed{
@@ -691,6 +698,15 @@ aside .events i{
     justify-content: space-between;
     padding:10px;
     padding-bottom: 0px;
+}
+.icon{
+    font-size: 15px;
+}
+.icon_2{
+    font-size:14px;
+    margin-right:10px;
+    display:block;
+    margin-top:5px;
 }
 
 .small_screen{
